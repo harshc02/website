@@ -1,129 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harsh — Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+portfolio
+projects skills about connect
+// student developer
 
-  <nav class="nav">
-    <span class="nav-logo">~/portfolio</span>
-    <div class="nav-links">
-      <a href="#projects">projects</a>
-      <a href="#about">about</a>
-      <a href="#contact">contact</a>
-    </div>
-  </nav>
+Harsh Chaudhari
 
-  <!-- HERO: a mock terminal replaying the actual login log from the project -->
-  <header class="hero">
-    <div class="hero-text">
-      <p class="eyebrow">// student developer</p>
-      <h1>Your Name</h1>
-      <p class="tagline">I build systems that ask "are you really you?" — and mean it.</p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">See my work</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
-      </div>
-    </div>
+I build systems that ask "are you really you?" — and mean it.
 
-    <div class="terminal" id="terminal">
-      <div class="terminal-bar">
-        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-        <span class="terminal-title">main_server.py — login attempt</span>
-      </div>
-      <pre class="terminal-body" id="terminal-body"></pre>
-    </div>
-  </header>
+See my work Connect with me
+main_server.py — login attempt
+Projects
 
-  <!-- PROJECTS -->
-  <section class="section" id="projects">
-    <h2 class="section-title">Projects</h2>
+flagship build
+Face ID + 2FA Login System
 
-    <article class="project-card featured">
-      <div class="project-info">
-        <span class="project-tag">flagship build</span>
-        <h3>Face ID + 2FA Login System</h3>
-        <p>
-          A three-factor login system combining a password, a TOTP
-          authenticator code, and live webcam face recognition — each
-          person gets their own isolated credentials, so one user's
-          code or face can never unlock another user's account.
-        </p>
-        <ul class="tech-tags">
-          <li>Python</li>
-          <li>Flask</li>
-          <li>OpenCV (LBPH)</li>
-          <li>pyotp</li>
-          <li>Werkzeug security</li>
-        </ul>
-        <ul class="feature-list">
-          <li>Per-user TOTP secrets + QR provisioning</li>
-          <li>Per-user trained face models, never cross-compared</li>
-          <li>One-time recovery codes for lost-device fallback</li>
-          <li>Failed-attempt lockout + CSV audit logging</li>
-          <li>Admin panel for account oversight</li>
-        </ul>
-        <div class="project-links">
-          <a href="https://github.com/yourusername/face-id-2fa-system" class="btn btn-small">View Code</a>
-          <a href="#" class="btn btn-small btn-ghost">Watch Demo Video</a>
-        </div>
-      </div>
-      <div class="project-visual">
-        <!-- Replace this with an actual screenshot or GIF of your app running -->
-        <div class="visual-placeholder">
-          <p>Drop a screenshot or screen-recording GIF of your login flow here</p>
-        </div>
-      </div>
-    </article>
+A three-factor login system combining a password, a TOTP authenticator code, and live webcam face recognition — each person gets their own isolated credentials, so one user's code or face can never unlock another user's account.
 
-    <!-- Duplicate this block for each additional project -->
-    <article class="project-card">
-      <div class="project-info">
-        <h3>Another Project</h3>
-        <p>Short description of what it does and why you built it.</p>
-        <ul class="tech-tags">
-          <li>Tech</li>
-          <li>Stack</li>
-        </ul>
-        <div class="project-links">
-          <a href="#" class="btn btn-small">View Code</a>
-        </div>
-      </div>
-    </article>
+Python
+Flask
+OpenCV (LBPH)
+pyotp
+Werkzeug security
+Per-user TOTP secrets + QR provisioning
+Per-user trained face models, never cross-compared
+One-time recovery codes for lost-device fallback
+Failed-attempt lockout + CSV audit logging
+Admin panel for account oversight
+View Code Watch Demo Video
+Drop a screenshot or screen-recording GIF of your login flow here
 
-  </section>
+automation
+Network Traffic Anomaly Detector
 
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <h2 class="section-title">About</h2>
-    <p class="about-text">
-      Write a few sentences about who you are, what you're studying, and
-      what kind of problems you like solving. Keep it plain and specific
-      — a sentence like "I like making systems more secure without
-      making them harder to use" says more than a list of adjectives.
-    </p>
-  </section>
+A lightweight monitoring tool that sniffs local network traffic, flags unusual spikes or suspicious connection patterns, and fires real-time alerts instead of waiting on a nightly log review.
 
-  <!-- CONTACT -->
-  <section class="section" id="contact">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-links">
-      <a href="mailto:you@example.com">you@example.com</a>
-      <a href="https://github.com/yourusername">GitHub</a>
-      <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
-    </div>
-  </section>
+Python
+Scapy
+Pandas
+View Code
+web
+Encrypted Notes App
 
-  <footer class="footer">
-    <p>&copy; <span id="year"></span> Your Name. Built from scratch, no template.</p>
-  </footer>
+A minimalist notes app where every entry is encrypted client-side before it ever touches the server, so even a full database leak reveals nothing readable.
 
-<script src="script.js"></script>
-</body>
-</html>
+JavaScript
+Node.js
+AES-256
+View Code
+Skills
+
+Languages
+
+Python
+JavaScript
+Java
+SQL
+Frameworks & Tools
+
+Flask
+Node.js
+OpenCV
+Git
+Security & Systems
+
+Authentication design
+Network monitoring
+Linux
+Cryptography basics
+About
+
+I'm Harsh Chaudhari, a student developer who likes building systems that are actually hard to break — not just hard to look at. Most of my projects live somewhere between security and software: login flows, monitoring tools, anything that has to make a real decision about who or what to trust. I like making systems more secure without making them harder to use.
+
+Connect
+
+Open to internships, collaborations, and interesting problems. Reach out through any of these:
+
+Email GitHub LinkedIn X / Twitter
+© Harsh Chaudhari. Built from scratch, no template.
